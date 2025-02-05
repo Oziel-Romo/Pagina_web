@@ -4,75 +4,94 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"> <!-- Corrección en el nombre del archivo CSS -->
-    <style>
-       
-    </style>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="header">
+    <!-- Sección de Inicio con ID "inicio" -->
+    <header class="header" id="inicio">
         <div class="menu container">
-            <a href="#" class="logo">logo</a> 
+            <a href="#" class="logo">logo</a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="">
+                <img src="images/menu.png" class="menu-icono" alt="Menú">
             </label>
-            <nav class="navbar" >
+            <nav class="navbar">
                 <ul>
-                    <li><a href="#">inicio</a></li>
-                    <li><a href="#">servicios</a></li>
-                    <li><a href="#">portafolio</a></li>
+                    <!-- Botón de Inicio -->
+                    <li><a href="#inicio">Inicio</a></li>
+                    <!-- Botón de Servicios -->
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#">Portafolio</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="header-content container">
-
             <div class="header-txt">
-                <h1>Enconmendados</h1>
+                <h1>Encantados</h1>
                 <p>
-                    Un Gusto En conocerte Hecha un vistaso a Nuestros paquetes
+                    Un gusto en conocerte. Échale un vistazo a nuestros paquetes.
                 </p>
-                <a href="#" class="btn-1">Informacion</a>
+                <a href="#" class="btn-1">Información</a>
             </div>
-
             <div class="header-img">
-                <img src="images/imaini.png" class="fara" alt="">
+                <img src="images/imaini.png" class="fara" alt="Imagen principal">
             </div>
         </div>
     </header>
 
-    <section class="general container">
+    <!-- Sección de Servicios con ID "servicios" -->
+    <section class="general container" id="servicios">
         <div class="general-1">
             <div class="general-card">
-
-                <img src="images/gitar.png" alt=""> <!-- Corrección en la ruta de la imagen -->
+                <img src="images/gitar.png" alt="Icono de guitarra">
                 <h3>Grupo Completo</h3>
                 <p>
-                    Conjunto de 4 integrantes
-                    Incluye: Bajo quinto, Acordeon, Bass electrico, bateria, 2 voces,
-                    equipo de sonido para 100 personas, luces, caja de humo
+                    Conjunto de 4 integrantes. Incluye:
+                    <ul>
+                        <li>Bajo quinto</li>
+                        <li>Acordeón</li>
+                        <li>Bajo eléctrico</li>
+                        <li>Batería</li>
+                        <li>2 voces</li>
+                        <li>Equipo de sonido para 100 personas</li>
+                        <li>Luces</li>
+                        <li>Caja de humo</li>
+                    </ul>
                 </p>
             </div>
             <div class="general-card">
-
-                <img src="images/gitar.png" alt=""> <!-- Corrección en la ruta de la imagen -->
+                <img src="images/gitar.png" alt="Icono de guitarra">
                 <h3>Fara Fara Completo</h3>
                 <p>
-                    Incluye: Bajo quinto, Acordeon, Bass electrico, 2 voces,
-                    equipo de sonido para 100 personas, luces, caja de ritmos y caja
+                    Incluye:
+                    <ul>
+                        <li>Bajo quinto</li>
+                        <li>Acordeón</li>
+                        <li>Bajo eléctrico</li>
+                        <li>2 voces</li>
+                        <li>Equipo de sonido para 100 personas</li>
+                        <li>Luces</li>
+                        <li>Caja de ritmos y caja</li>
+                    </ul>
                 </p>
             </div>
             <div class="general-card">
-
-                <img src="images/gitar.png" alt=""> <!-- Corrección en la ruta de la imagen -->
-                <h3>Farara Tradicional</h3>
+                <img src="images/gitar.png" alt="Icono de guitarra">
+                <h3>Fara Fara Tradicional</h3>
                 <p>
-                    Conjunto de: 2 integrantes 
-                    Incluye: Acordeon, Bajo quinto, 2 Voces, Caja de humo, equipo de sonido para 100 personas, luces y caja de ritmos
+                    Conjunto de 2 integrantes. Incluye:
+                    <ul>
+                        <li>Acordeón</li>
+                        <li>Bajo quinto</li>
+                        <li>2 voces</li>
+                        <li>Caja de humo</li>
+                        <li>Equipo de sonido para 100 personas</li>
+                        <li>Luces</li>
+                        <li>Caja de ritmos</li>
+                    </ul>
                 </p>
             </div>
         </div>
@@ -80,29 +99,27 @@
         <div class="general-2">
             <h2>Nuestros servicios</h2>
             <p>
-                Grupo de musica regional para todos tus eventos
+                Grupo de música regional para todos tus eventos.
             </p>
-            <a href="#" class="btn-2">Informacion</a>  
-        </div>  
-    </section> 
+            <a href="#" class="btn-2">Información</a>
+        </div>
+    </section>
 
+    <!-- Otras secciones -->
     <section class="general container">
         <div class="general-2">
             <h2>Sobre nosotros</h2>
             <p>
-                Somos un Gerupo de musica Regional el cual nos encanta hacer tus Eventos mas divertidos, Hecha un ojo a nuestros Paquetes se que les encantaran
+                Somos un grupo de música regional al que nos encanta hacer tus eventos más divertidos. Échale un ojo a nuestros paquetes, seguro que te encantarán.
             </p>
-            <a href="#" class="btn-2">Informacion</a>  
+            <a href="#" class="btn-2">Información</a>
         </div>
         <div class="general-1">
-            <div class="general-card bg-1">
-            </div>
-            <div class="general-card bg-2">
-            </div>
-            <div class="general-card bg-3">
-            </div>
+            <div class="general-card bg-1"></div>
+            <div class="general-card bg-2"></div>
+            <div class="general-card bg-3"></div>
         </div>
-    </section> 
+    </section>
 
 </body>
-</html>   
+</html>
