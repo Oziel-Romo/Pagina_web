@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Grupo Regional</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <!-- Sección de Inicio con ID "inicio" -->
     <header class="hero-section" id="inicio">
         <div class="menu container">
-            <a href="#" class="logo">MiLogo</a>
+            <a href="#" class="logo">MILOGO</a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
                 <img src="images/menu.png" class="menu-icono" alt="Menú">
@@ -39,8 +39,6 @@
             </div>
         </div>
     </header>
-    
-    
 
     <!-- Sección de Servicios con ID "servicios" -->
     <section class="general container" id="servicios">
@@ -105,19 +103,125 @@
         </div>
     </section>
 
-    <!-- Otras secciones -->
-    <section class="general container">
-        <div class="general-2">
-            <h2>Sobre nosotros</h2>
-            <p>
-                Somos un grupo de música regional al que nos encanta hacer tus eventos más divertidos. Échale un ojo a nuestros paquetes, seguro que te encantarán.
-            </p>
-            <a href="#" class="btn-2">Información</a>
+    <!-- Sección "Sobre nosotros" -->
+    <section class="sobre-nosotros">
+        <div class="container">
+            <div class="general-2">
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Somos un grupo de música regional al que nos encanta hacer tus eventos más divertidos. Échale un ojo a nuestros paquetes, seguro que te encantarán.
+                </p>
+                <a href="#" class="btn-2">Información</a>
+            </div>
+            <div class="general-1">
+                <div class="general-card bg-1"></div>
+                <div class="general-card bg-2"></div>
+                <div class="general-card bg-3"></div>
+            </div>
         </div>
-        <div class="general-1">
-            <div class="general-card bg-1"></div>
-            <div class="general-card bg-2"></div>
-            <div class="general-card bg-3"></div>
+    </section>
+        
+    <!-- Sección de Portafolio con ID "portafolio" -->
+    <section class="portfolio-section" id="portafolio">
+        <div class="container">
+        <h2 class="section-title">Nuestro Portafolio</h2>
+        <p class="section-subtitle">Momentos inolvidables que hemos creado</p>
+        
+        <div class="portfolio-filter">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="eventos">Eventos</button>
+            <button class="filter-btn" data-filter="bodas">Bodas</button>
+            <button class="filter-btn" data-filter="fiestas">Fiestas</button>
+            <button class="filter-btn" data-filter="videos">Videos</button>
+        </div>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="videos">
+                <div class="video-container">
+                    <iframe src="images/Al ritmo de cumbia !!.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="portfolio-overlay">
+                    <h3>Video en Vivo</h3>
+                    <p>Presentación en festival regional</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+            
+            <!-- Item 2 -->
+            <div class="portfolio-item" data-category="videos">
+                <div class="video-container">
+                    <iframe src="images/Al ritmo de cumbia !!.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="portfolio-overlay">
+                    <h3>Video en Vivo</h3>
+                    <p>Presentación en festival regional</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+            
+            
+            <!-- Item 3 -->
+            <div class="portfolio-item" data-category="fiestas">
+                <img src="images/fiesta1.jpg" alt="Fiesta de 15 años">
+                <div class="portfolio-overlay">
+                    <h3>Fiesta de XV Años</h3>
+                    <p>Animación musical completa</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+            
+            <!-- Item 4 -->
+            <div class="portfolio-item" data-category="videos">
+                <div class="video-container">
+                    <iframe src="images/Al ritmo de cumbia !!.mp4" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="portfolio-overlay">
+                    <h3>Video en Vivo</h3>
+                    <p>Presentación en festival regional</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+            
+            <!-- Item 5 -->
+            <div class="portfolio-item" data-category="eventos">
+                <img src="images/evento2.jpg" alt="Feria local">
+                <div class="portfolio-overlay">
+                    <h3>Feria Local</h3>
+                    <p>Concierto en plaza principal</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+            
+            <!-- Item 6 -->
+            <div class="portfolio-item" data-category="bodas">
+                <img src="images/boda2.jpg" alt="Boda campestre">
+                <div class="portfolio-overlay">
+                    <h3>Boda Campestre</h3>
+                    <p>Música para ceremonia y recepción</p>
+                    <a href="#" class="portfolio-link">Ver más</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h3>Lo que dicen nuestros clientes</h3>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <p>"El grupo hizo que nuestra boda fuera mágica. Todos los invitados quedaron encantados con la música."</p>
+                    <div class="client-info">
+                        <span class="client-name">- Ana y Roberto</span>
+                        <span class="client-event">Boda, Mayo 2023</span>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Contratamos al grupo para nuestro evento corporativo y superó todas nuestras expectativas. ¡Volveremos a contratarlos!"</p>
+                    <div class="client-info">
+                        <span class="client-name">- Empresa XYZ</span>
+                        <span class="client-event">Evento Corporativo, Agosto 2023</span>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
 
