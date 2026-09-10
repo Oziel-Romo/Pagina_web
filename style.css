@@ -475,3 +475,92 @@ body {
     font-size: 14px;
     color: var(--gris-texto);
 }
+
+/* --- ESTILOS RESPONSIVOS PARA MÓVILES --- */
+@media (max-width: 768px) {
+
+    /* Ajuste general de contenedores */
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Menú de navegación en móviles */
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    .menu label {
+        display: block; /* Muestra el icono del menú */
+    }
+
+    .menu .navbar {
+        width: 100%;
+        display: none; /* Se oculta por defecto hasta activar el menú */
+    }
+
+    .menu .navbar ul li {
+        float: none;
+        width: 100%;
+    }
+
+    /* Hero / Encabezado principal */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 32px;
+    }
+
+    .hero-subtitle {
+        font-size: 16px;
+    }
+
+    .adjusted-image {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0; /* Elimina el desplazamiento hacia la derecha */
+    }
+
+    /* Sección de Servicios */
+    .general {
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+
+    .general-card {
+        flex: 1 1 100%;
+        margin: 10px 0;
+    }
+
+    /* Sección Sobre Nosotros */
+    .sobre-nosotros .container {
+        flex-direction: column;
+    }
+
+    .sobre-nosotros .general-1, 
+    .sobre-nosotros .general-2 {
+        width: 100%;
+    }
+
+    .sobre-nosotros .general-1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .sobre-nosotros .general-card {
+        width: 100%;
+        height: 200px;
+    }
+
+    /* Grid del Portafolio */
+    .portfolio-grid {
+        grid-template-columns: 1fr; /* Una sola columna en teléfonos */
+        gap: 20px;
+    }
+}
+
